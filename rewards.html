@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rewards | Lake View Coffee</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .rewards-heading {
+            text-align: center;
+            padding: 45px 0 25px;
+        }
+
+        .rewards-box {
+            background-color: #a8bda5;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+
+        .rewards-box label {
+            display: block;
+            margin-top: 15px;
+            font-size: 12px;
+        }
+
+        .rewards-box input,
+        .rewards-box select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #5d7f5c;
+            border-radius: 5px;
+        }
+
+        .rewards-box button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .rewards-box button:hover {
+            background-color: #444;
+        }
+
+        .rewards-info {
+            padding-bottom: 35px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About Us</a>
+            <a href="rewards.html">Rewards</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Rewards Heading -->
+        <section class="rewards-heading">
+
+            <h1>POINTS BACK</h1>
+
+            <p>
+                Every cup brings you closer to a reward!
+                Join the Lake View Coffee rewards program.
+            </p>
+
+        </section>
+
+        <!-- Rewards Information -->
+        <section class="rewards-info">
+
+            <h2>HOW IT WORKS</h2>
+
+            <p>
+                Our rewards program is designed to thank our
+                customers for supporting Lake View Coffee.
+            </p>
+
+            <p>
+                Earn points every time you purchase your favorite
+                coffee blends and redeem them for future rewards.
+            </p>
+
+            <blockquote>
+                Great coffee tastes even better when
+                there are rewards involved!
+            </blockquote>
+
+            <h2>MEMBER BENEFITS</h2>
+
+            <ul>
+                <li>Earn points on every purchase.</li>
+                <li>Receive special seasonal offers.</li>
+                <li>Discover new coffee blends.</li>
+                <li>Get access to exclusive promotions.</li>
+            </ul>
+
+        </section>
+
+        <!-- HTML5 Registration Form -->
+        <section class="rewards-box">
+
+            <h2>JOIN OUR REWARDS PROGRAM</h2>
+
+            <p>
+                Fill out the form below to register your interest.
+            </p>
+
+            <form action="#" method="get">
+
+                <label for="firstname">First Name:</label>
+
+                <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="Enter your first name"
+                    required>
+
+                <label for="lastname">Last Name:</label>
+
+                <input
+                    type="text"
+                    id="lastname"
+                    name="lastname"
+                    placeholder="Enter your last name"
+                    required>
+
+                <label for="email">Email Address:</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+
+                <label for="birthday">Birthday:</label>
+
+                <input
+                    type="date"
+                    id="birthday"
+                    name="birthday">
+
+                <label for="favorite">Favorite Coffee:</label>
+
+                <select id="favorite" name="favorite">
+
+                    <option value="lake-effect">Lake Effect Blend</option>
+                    <option value="sunset">Sunset Ethiopia</option>
+                    <option value="pumpkin">Pumpkin Spice</option>
+                    <option value="house">Classic House Blend</option>
+
+                </select>
+
+                <button type="submit">
+                    Join Now
+                </button>
+
+            </form>
+
+        </section>
+
+        <p>
+            <a href="shop.html">Explore our coffee selection</a>
+            or return to our <a href="index.html">homepage</a>.
+        </p>
+
+    </main>
+
+</body>
+</html>
